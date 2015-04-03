@@ -1,0 +1,60 @@
+body,div,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,img,form,fieldset,input,textarea
+	{
+	margin: 5;
+	padding: 3;
+	border: 0;
+	content: 10;
+}
+
+body {
+	background-image: url('C:/Users/sahar/Desktop/paisley.png');
+	width: 960px;
+	margin: 20px;
+	position: relative;
+	left: 195px;
+}
+
+a:link {
+	color: #FF0000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FA0BAF;
+}
+
+#titr {
+	font-family: "B-Titr";
+}
+
+p {
+	font-family: "Tahoma";
+}
+
+#sidebar {
+	background-color: #e0ffff;
+	padding: 10px;
+	margin: 0px;
+	border: 1px solid;
+	border-radius: 15px;
+}
+
+#Sahar {
+	border: 2px solid;
+	border-radius: 10px;
+}
+
+#head {border: 2px solid;
+	border-radius: 10px;
+}
+
+#first{
+     background-color: #e0ffff;
+}
+#second{
+       background-color: white;
+}
+#pic {
+       float: left;
+       margin: 4px 30px 10px 0;
+}
