@@ -1,0 +1,26 @@
+<html>
+<head>
+<script type="text/javascript">
+	function check() {
+		var field = document.querySelector("input").value;
+		if ((field.indexOf("A") >= 0) || (field.indexOf("U") >= 0)
+				|| (field.indexOf("O") >= 0) || (field.indexOf("C") >= 0)
+				|| (field.indexOf("N") >= 0))
+			alert("this name is not accaptable")
+
+	}
+</script>
+</head>
+<body>
+	<p>we want to check your word!</p>
+	<form>
+		<p>
+			enter the word: <input TYPE="TEXT">
+		</p>
+		<p>
+			<input TYPE="Button" onClick="check()" value="check it!">
+		</p>
+
+	</form>
+</body>
+<html>
